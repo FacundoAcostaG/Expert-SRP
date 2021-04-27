@@ -6,9 +6,9 @@ namespace Expert_SRP
     {
         static void Main(string[] args)
         {
-            Alfajor a = new Alfajor(10, 8.5);
-            Kiosco k = new Kiosco();
-            if (k.PuedeComprar(a, 15, "$"))
+            Alfajor alfajor1 = new Alfajor(10, 8.5);
+            Kiosco kiosco1 = new Kiosco();
+            if (kiosco1.PuedeComprar(alfajor1, 15, "$"))
             {
                 Console.WriteLine("Felicitaciones! Tiene suficiente dinero para comprar un alfajor :)");
             }
