@@ -51,3 +51,7 @@ namespace Library
 
     }
 }
+
+/* No cumple con SRP porque tiene diversas funcionalidades dentro de una misma clase, por un lado lo que hace es conocer los datos del paciente, por otro los datos del doctor y tambien el lugar donde se llevara a cabo la consulta.
+Todas estas funcionalidades deberian encontrarse en clases separadas para asi cumplir con el principio. Además, la funcion de crear la consulta tambein deberia encontrarse en un clase separada.
+ */
