@@ -26,3 +26,5 @@ namespace SRP
 
     }
 }
+/* No cumple con SRP porque tiene más de una responsabilidad, conocer la información del libro y donde se ubica en la biblioteca.
+*/ 
