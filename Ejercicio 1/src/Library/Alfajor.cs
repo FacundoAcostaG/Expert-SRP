@@ -3,16 +3,18 @@ using System;
 namespace Expert_SRP
 {
     public class Alfajor 
+    
     {
+         public Double PrecioDulce {get;set;}
+         public Double PrecioMasa {get; set;}
+         
         public Alfajor(double precioMasa, double precioDulce)
         {
             this.PrecioDulce = precioDulce;
             this.PrecioMasa = precioMasa;
         }
-        public Double PrecioDulce {get;set;}
-        public Double PrecioMasa {get; set;}
 
-        public double PrecioAlfajor(double PrecioMasa, double PrecioDulce)
+        public double PrecioAlfajor()
         {
            return PrecioDulce + PrecioMasa;
         }
